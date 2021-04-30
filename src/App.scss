@@ -1,0 +1,59 @@
+html, body, #root {
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: "Idlewild A", "Idlewild B", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color: lightseagreen;
+  text-shadow: 0 0 1vh lightseagreen;
+  margin-top: -30vh;
+}
+
+ h5, h6, p {
+  font-family: "Idlewild A", "Idlewild B", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color: white;
+  text-shadow: 0 0 1vh black;
+}
+
+.btn {
+  box-shadow: 0 0 5vh lightseagreen;
+  color: lightseagreen !important;
+}
+
+.animation-wrapper {
+  width: 100vw;
+  height: 70vh;
+  background: url("/assets/3DBG2.jpg") center center;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  margin-top: 130px;
+}
+
+.content-box {
+  height: 100vh
+}
+
+.cards {
+    width: 345px;
+    height: 475px;
+    margin: 3vh 5vw;
+    background: url("/assets/3DBG2.jpg") center center;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
