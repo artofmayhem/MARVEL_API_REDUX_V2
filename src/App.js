@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-import "./App.scss";
+import "./App.css";
 import { AppBar, CircularProgress } from "@material-ui/core";
 import AnimationCanvas from "./views/animationcanvas";
 import { Suspense } from "react";

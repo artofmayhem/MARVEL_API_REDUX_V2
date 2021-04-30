@@ -20,7 +20,7 @@ h1, h2 {
   margin-top: -30vh;
 }
 
-h5, h6, p {
+ h5, h6, p {
   font-family: "Idlewild A", "Idlewild B", Arial, sans-serif;
   font-style: normal;
   font-weight: 200;
@@ -43,18 +43,17 @@ h5, h6, p {
 }
 
 .content-box {
-  height: 100vh;
+  height: 100vh
 }
 
 .cards {
-  width: 345px;
-  height: 475px;
-  margin: 3vh 5vw;
-  background: url("/assets/3DBG2.jpg") center center;
-  background-size: 100vw;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  opacity: 0.9;
+    width: 345px;
+    height: 475px;
+    margin: 3vh 5vw;
+    background: url("/assets/3DBG2.jpg") center center;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
 }
 
-/*# sourceMappingURL=App.css.map */
