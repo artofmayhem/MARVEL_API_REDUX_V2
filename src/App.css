@@ -36,7 +36,7 @@ h1, h2 {
 .animation-wrapper {
   width: 100vw;
   height: 70vh;
-  background: url("/assets/3DBG2.jpg") center center;
+  background: url('/assets/3DBG2.jpg') center center;
   background-size: 100vw;
   background-repeat: no-repeat;
   margin-top: 130px;
