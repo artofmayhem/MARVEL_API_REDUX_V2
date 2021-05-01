@@ -23,13 +23,13 @@ function App() {
             Jarvis 2.0... online and ready, sir...
           </h2>
           <div className={"d-flex flex-row flex-wrap justify-content-between"}>
-            <Link
+            {/* <Link
               to={"home"}
               className="btn btn-outline-dark"
               style={{ color: "#666", margin: "2vh 3vw", width: '7rem' }}
             >
               Home
-            </Link>
+            </Link> */}
             <Link
               to={"server"}
               className="btn btn-outline-dark"
@@ -59,7 +59,7 @@ function App() {
             <AnimationCanvas />
           </Suspense>
           <Switch>
-            <Route path={"/home"} component={Home} />
+            {/* <Route path={"/home"} component={Home} /> */}
             <Route path={"/server"} component={Mutants} />
           </Switch>
         </div>
