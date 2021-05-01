@@ -66,7 +66,7 @@ const mapStateToProps = (state) => {
     fetchData2(state.weatherSearchValue);
     //console.log("state mapped to props from mutants", state);
     return {
-        weatherSearchValue: state.weatherSearchValue
+        searchValue: state.searchValue
     };
 };
 

@@ -3,5 +3,6 @@ const initialState = {
     loading: false,
     error: "",
     searchValue: "",
+    searchValue2: "96822"
 }
 export default initialState
