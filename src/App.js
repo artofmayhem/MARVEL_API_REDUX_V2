@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import "./App.scss";
-import { AppBar, CircularProgress } from "@material-ui/core";
+import { CircularProgress } from "@material-ui/core";
 import AnimationCanvas from "./views/animationcanvas";
 import { Suspense } from "react";
 //import Home from "./views/home";
@@ -10,13 +10,14 @@ function App() {
   return (
     <div>
       <Router>
-        <AppBar
+        <nav
           className={"d-flex justify-content-center, flex-row, flex-wrap"}
           style={{
             backgroundColor: "black",
             color: "white",
             textAlign: "center",
-            boxShadow: '0 0 3vh deepskyblue'
+            boxShadow: '0 0 3vh deepskyblue',
+            position: 'absolute',
           }}
         >
           <h2 style={{ padding: "1.5vh 0" }}>
@@ -53,7 +54,7 @@ function App() {
               Connect
             </a>
           </div>
-        </AppBar>
+        </nav>
         <div className="animation-wrapper">
           <Suspense fallback={<CircularProgress />}>
             <AnimationCanvas />
