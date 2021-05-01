@@ -2,6 +2,6 @@
 const initialState = {
     loading: false,
     error: "",
-    searchValue: "ironman",
+    searchValue: "",
 }
 export default initialState

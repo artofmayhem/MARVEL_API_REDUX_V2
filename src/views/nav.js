@@ -18,7 +18,7 @@ export default function Nav() {
                     className="btn btn-outline-light"
                     style={{color: "#666", margin: "0 .5rem"}}
                 >
-                    Mutants
+                    Server
                 </Link>
                 <Link
                     to={'home'}

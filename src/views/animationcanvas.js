@@ -5,11 +5,11 @@ import { Suspense } from "react";
 
 function AnimationCanvas() {
   return (
-    <Canvas colorManagement camera={{ position: [100, 10, 0], fov: 20 }}>
-      <ambientLight intensity={0.3} />
+    <Canvas colorManagement camera={{ position: [200, -1, 0], fov: -10 }}>
+      <ambientLight intensity={1} />
       <directionalLight
-        position={[0, 10, 0]}
-        intensity={1}
+        position={[0, 30, 0]}
+        intensity={3}
         shadow-mapSize-width={1024}
         shadow-mapSize-height={1024}
         shadow-camera-far={50}

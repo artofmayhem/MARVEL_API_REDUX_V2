@@ -11,6 +11,7 @@ html, body, #root {
   box-sizing: border-box;
 }
 
+
 h1, h2, h3, h4 {
   font-family: "Idlewild A", "Idlewild B", Arial, sans-serif;
   font-style: normal;
@@ -20,7 +21,7 @@ h1, h2, h3, h4 {
   margin-top: -30vh;
 }
 
-h5, h6 {
+ h5, h6 {
   font-family: "Idlewild A", "Idlewild B", Arial, sans-serif;
   font-style: normal;
   font-weight: 200;
@@ -44,25 +45,30 @@ p {
 .animation-wrapper {
   width: 100vw;
   height: 70vh;
-  background: url("/assets/3DBG2.jpg") center center;
+  background: url('/assets/3DBG2.jpg') center center;
   background-size: 100vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin-top: 130px;
-  box-shadow: 0 0 1.5rem deepskyblue, inset 0 0 10rem deepskyblue, 0 0 60px deepskyblue, inset 0 0 10rem deepskyblue;
+  box-shadow:
+          0 0 1.5rem deepskyblue,
+          inset 0 0 10rem deepskyblue,
+          0 0 60px deepskyblue,
+          inset 0 0 10rem deepskyblue;
 }
 
 .content-box {
-  height: 100vh;
+  height: 100vh
 }
 
 .cards {
-  width: 345px;
-  height: 475px;
-  margin: 3vh 5vw;
-  background: url("/assets/3DBG2.jpg") center center;
-  background-size: cover;
-  background-attachment: fixed;
-  opacity: 0.9;
-  box-shadow: 0 0 15rem deepskyblue !important;
+    width: 345px;
+    height: 475px;
+    margin: 3vh 5vw;
+    background: url("/assets/3DBG2.jpg") center center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+    box-shadow: 0 0 15rem deepskyblue !important;
 }
+

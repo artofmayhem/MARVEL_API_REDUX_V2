@@ -37,7 +37,7 @@ const Mutants = (props) => {
                             width: "15rem",
                             alignSelf: "center",
                             backgroundColor: "#444",
-                            color: "lightseagreen",
+                            color: "deepskyblue",
                             textAlign: "center",
                             fontSize: "1.25rem",
                             margin: "3vh ",

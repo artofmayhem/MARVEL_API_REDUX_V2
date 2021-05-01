@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 import { AppBar, CircularProgress } from "@material-ui/core";
 import AnimationCanvas from "./views/animationcanvas";
 import { Suspense } from "react";
@@ -16,6 +16,7 @@ function App() {
             backgroundColor: "black",
             color: "white",
             textAlign: "center",
+            boxShadow: '0 0 3vh deepskyblue'
           }}
         >
           <h2 style={{ padding: "1.5vh 0" }}>
@@ -25,29 +26,29 @@ function App() {
             <Link
               to={"home"}
               className="btn btn-outline-dark"
-              style={{ color: "#666", margin: "2vh 3vw" }}
+              style={{ color: "#666", margin: "2vh 3vw", width: '7rem' }}
             >
               Home
             </Link>
             <Link
-              to={"mutants"}
+              to={"server"}
               className="btn btn-outline-dark"
-              style={{ color: "#666", margin: "2vh 3vw" }}
+              style={{ color: "#666", margin: "2vh 3vw", width: '7rem'}}
             >
-              Mutants
+             Server
             </Link>
 
             <a
               href={"https://www.marvel.com"}
               className="btn btn-outline-dark"
-              style={{ color: "#666", margin: "2vh 3vw" }}
+              style={{ color: "#666", margin: "2vh 3vw", width: '7rem' }}
             >
               Marvel
             </a>
             <a
               href={"mailto:tony.miller@blackthought.tech"}
               className="btn btn-outline-dark"
-              style={{ color: "#666", margin: "2vh 3vw" }}
+              style={{ color: "#666", margin: "2vh 3vw", width: '7rem' }}
             >
               Connect
             </a>
@@ -59,7 +60,7 @@ function App() {
           </Suspense>
           <Switch>
             <Route path={"/home"} component={Home} />
-            <Route path={"/mutants"} component={Mutants} />
+            <Route path={"/server"} component={Mutants} />
           </Switch>
         </div>
       </Router>

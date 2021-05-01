@@ -11,7 +11,7 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   media: {
-    height: 140,
+    height: 180,
   },
   type: {
     fontSize: "3vh",
@@ -21,13 +21,14 @@ const useStyles = makeStyles({
     fontSize: ".7rem",
   },
   p: {
-    fontSize: "1.5vh",
+    fontSize: "1.1vh",
     color: "white !important",
     marginTop: "1vh",
   },
   cards: {
-    backgroundColor: "#444",
+    backgroundColor: "#222",
     opacity: "0.6",
+
   },
 });
 
@@ -35,15 +36,15 @@ const List = (props) => {
   const classes = useStyles();
 
   const data = props.fetchedItem;
-  console.log("received props from List renderer", data);
+  //console.log("received props from List renderer", data);
 
-  console.log(props);
+  //console.log(props);
 
   if (props.loading) {
     return (
-      <>
-        <LinearProgress style={{ alignSelf: "center" }} />
-      </>
+        <div className={'d-flex justify-content-center'}>
+          <LinearProgress style={{ alignSelf: "center" }} />
+        </div>
     );
   }
   return (

@@ -59,7 +59,7 @@ function Points() {
             <pointsMaterial
                 attach='material'
                 map={imgTexture}
-                size={0.5}
+                size={1}
                 transparent={false}
                 alphaTest={0.5}
                 opacity={1.0}
