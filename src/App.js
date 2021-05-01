@@ -3,7 +3,7 @@ import "./App.scss";
 import { AppBar, CircularProgress } from "@material-ui/core";
 import AnimationCanvas from "./views/animationcanvas";
 import { Suspense } from "react";
-import Home from "./views/home";
+//import Home from "./views/home";
 import Mutants from "./views/mutants";
 
 function App() {
