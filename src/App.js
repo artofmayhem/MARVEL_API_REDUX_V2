@@ -17,7 +17,6 @@ function App() {
             color: "white",
             textAlign: "center",
             boxShadow: '0 0 3vh deepskyblue',
-            zIndex: '1'
           }}
         >
           <h2 style={{ padding: "1.5vh 0" }}>
