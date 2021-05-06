@@ -1,16 +1,16 @@
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import "./App.scss";
-import { CircularProgress } from "@material-ui/core";
+import {AppBar, CircularProgress} from "@material-ui/core";
 import AnimationCanvas from "./views/animationcanvas";
 import { Suspense } from "react";
-//import Home from "./views/home";
+// import Home from "./views/home";
 import Mutants from "./views/mutants";
 
 function App() {
   return (
     <div>
       <Router>
-        <nav
+        <AppBar
           className={"d-flex justify-content-center, flex-row, flex-wrap"}
           style={{
             backgroundColor: "black",
@@ -23,7 +23,7 @@ function App() {
             Jarvis 2.0... online and ready, sir...
           </h2>
           <div className={"d-flex flex-row flex-wrap justify-content-between"}>
-            {/* <Link
+             {/* <Link
               to={"home"}
               className="btn btn-outline-dark"
               style={{ color: "#666", margin: "2vh 3vw", width: '7rem' }}
@@ -53,13 +53,13 @@ function App() {
               Connect
             </a>
           </div>
-        </nav>
+        </AppBar>
         <div className="animation-wrapper">
           <Suspense fallback={<CircularProgress />}>
             <AnimationCanvas />
           </Suspense>
           <Switch>
-            {/* <Route path={"/home"} component={Home} /> */}
+             {/* <Route path={"/home"} component={Home} /> */}
             <Route path={"/server"} component={Mutants} />
           </Switch>
         </div>

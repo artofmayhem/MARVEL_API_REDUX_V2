@@ -1,4 +1,4 @@
-import {fetchData2, searchValue} from "../actions";
+import {fetchData2, weatherSearchValue} from "../actions";
 import {connect} from "react-redux";
 import {useEffect, useState} from "react";
 import {Button} from "@material-ui/core";
@@ -15,13 +15,13 @@ const  Home = (props) => {
 
     const handleClick = (e) => {
         e.preventDefault();
-        props.searchValue(searchValues);
+        props.weatherSearchValue(searchValues);
         props.fetchData2(searchValues);
         //console.log("Search value from handle click WORKING", searchValues);
     };
 
     useEffect(() => {
-        props.fetchData2(props.searchValue);
+        props.fetchData2(props.weatherSearchValue);
     }, [props]);
 
     return (
@@ -66,12 +66,12 @@ const mapStateToProps = (state) => {
     fetchData2(state.weatherSearchValue);
     //console.log("state mapped to props from mutants", state);
     return {
-        searchValue: state.searchValue
+        weatherSearchValue: state.weatherSearchValue
     };
 };
 
 const mapDispatchToProps = {
-    searchValue, fetchData2
+    weatherSearchValue, fetchData2
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);
