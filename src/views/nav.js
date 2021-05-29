@@ -9,7 +9,7 @@ export default function Nav() {
                 backgroundColor: 'black',
                 color: 'white',
                 textAlign: 'center',
-                marginTop: '-150px',
+                
                 position: 'fixed'
             }}
         >
