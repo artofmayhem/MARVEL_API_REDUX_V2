@@ -9,7 +9,8 @@ export default function Nav() {
                 backgroundColor: 'black',
                 color: 'white',
                 textAlign: 'center',
-                marginTop: '-150px'
+                marginTop: '-150px',
+                position: 'fixed'
             }}
         >
             <h1>Jarvis 2.0</h1>
@@ -21,13 +22,13 @@ export default function Nav() {
                 >
                     Server
                 </Link>
-                <Link
+                {/* <Link
                     to={'home'}
                     className="btn btn-outline-light"
                     style={{color: "#666", margin: "0 1rem"}}
                 >
                     Home
-                </Link>
+                </Link> */}
                 <a href={'https://www.marvel.com'}
                    className="btn btn-outline-light"
                    style={{color: "#666", margin: "0 1rem"}}
