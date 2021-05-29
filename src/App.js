@@ -11,13 +11,15 @@ function App() {
     <div className='d-flex justify-content-center align-content-center flex-column'>
       <Router>
         <AppBar
-          className={"d-flex justify-content-center, flex-row, flex-wrap"}
+          className={"d-flex justify-content-center flex-row flex-wrap"}
           style={{
             backgroundColor: "black",
             color: "white",
             textAlign: "center",
             boxShadow: '0 0 3vh deepskyblue',
-            position: 'absolute'
+            position: 'absolute',
+            minHeight: '10vh'
+
           }}
         >
           <h2 style={{ padding: "1.5vh 0" }}>
