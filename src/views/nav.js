@@ -9,7 +9,6 @@ export default function Nav() {
                 backgroundColor: 'black',
                 color: 'white',
                 textAlign: 'center',
-                position: 'absolute'
             }}
         >
             <h1>Jarvis 2.0</h1>
