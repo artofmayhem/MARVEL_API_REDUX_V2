@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import "./App.scss";
 //import {AppBar} from "@material-ui/core/AppBar";
-import {CircularProgress} from '@material-ui/core/CircularProgress'
+import {CircularProgress} from '@material-ui/core'
 import AnimationCanvas from "./views/animationcanvas";
 import { Suspense } from "react";
 // import Home from "./views/home";
