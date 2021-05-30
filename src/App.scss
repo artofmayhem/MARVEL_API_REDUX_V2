@@ -1,7 +1,7 @@
-html, body {
+html, body, #root {
   overflow-x: hidden;
   width: 100vw;
-  height: auto;
+  height: 100vh;
   margin: 0;
   padding: 0;
   background-color: black;

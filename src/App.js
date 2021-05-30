@@ -8,7 +8,7 @@ import Mutants from "./views/mutants";
 
 function App() {
   return (
-    <div className='d-flex justify-content-center align-content-center flex-column'>
+    <div>
       <Router>
         <AppBar
           className={"d-flex justify-content-center flex-row flex-wrap"}
@@ -17,7 +17,6 @@ function App() {
             color: "white",
             textAlign: "center",
             boxShadow: '0 0 3vh deepskyblue',
-            position: 'absolute',
             minHeight: '10vh'
 
           }}
