@@ -9,10 +9,11 @@ export default function Nav() {
                 backgroundColor: 'black',
                 color: 'white',
                 textAlign: 'center',
+                maxWidth: '50vw'
             }}
         >
             <h1>Jarvis 2.0</h1>
-            <div className={'d-flex flex-row flex-wrap justify-content-around align-content-center'}>
+            <div className={'d-flex flex-row flex-wrap justify-content-around align-content-center'} style={{maxWidth: '50vw'}}>
                 <Link
                     to={'mutants'}
                     className="btn btn-outline-light"
