@@ -9,7 +9,7 @@ export default function Nav() {
                 backgroundColor: 'black',
                 color: 'white',
                 textAlign: 'center',
-                height: '15vh'
+                minHeight: '20vh'
             }}
         >
             <h1>Jarvis 2.0</h1>
