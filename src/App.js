@@ -21,9 +21,9 @@ function App() {
 
           }}
         >
-          <h2 style={{ padding: "1.5vh 0" }}>
+          <h1 style={{ padding: "1.5vh 0" }}>
             Jarvis 2.0... online and ready, sir...
-          </h2>
+          </h1>
           <div className={"d-flex flex-row flex-wrap justify-content-between"}>
              {/* <Link
               to={"home"}
