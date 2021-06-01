@@ -18,7 +18,7 @@ function App() {
             color: "white",
             textAlign: "center",
             boxShadow: '0 0 3vh deepskyblue',
-            minHeight: '10vh',
+            minHeight: '20vh',
             position: 'static'
           }}
         >
