@@ -12,20 +12,20 @@ function App() {
     <div>
       <Router>
         <nav
-          className={"d-flex justify-content-center flex-row flex-wrap"}
+          className={"d-flex justify-content-center align-items-center flex-row flex-wrap"}
           style={{
             backgroundColor: "black",
             color: "white",
             textAlign: "center",
             boxShadow: '0 0 3vh deepskyblue',
-            minHeight: '20vh',
+            height: '15vh',
             position: 'static'
           }}
         >
-          <h1 style={{ padding: "1.5vh 0" }}>
-            Jarvis 2.0... online and ready, sir...
-          </h1>
-          <div className={"d-flex flex-row flex-wrap justify-content-between"}>
+          <h4 style={{ margin: "0 5vw" }}>
+            Jarvis 2.0... Enhanced Entity Server
+          </h4>
+          <div className={"d-flex flex-row flex-wrap justify-content-between align-items-center"}>
              {/* <Link
               to={"home"}
               className="btn btn-outline-dark"

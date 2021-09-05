@@ -12,7 +12,9 @@ export default function Nav() {
                 minHeight: '20vh'
             }}
         >
-            <h1>Jarvis 2.0</h1>
+
+            <div> <h1 style={{fontSize:'5rem'}}>Jarvis 2.0. Enhanced Entity Server</h1></div>
+           
             <div className={'d-flex flex-row flex-wrap justify-content-around align-content-center'} style={{maxWidth: '50vw'}}>
                 <Link
                     to={'mutants'}
