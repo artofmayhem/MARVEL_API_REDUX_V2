@@ -4,7 +4,7 @@ import {AppBar} from "@material-ui/core";
 export default function Nav() {
     return (
         <AppBar
-            className={'d-flex justify-content-center, flex-row, flex-wrap align-content-center'}
+            className={'d-flex justify-content-center, flex-column, flex-wrap align-content-center'}
             style={{
                 backgroundColor: 'black',
                 color: 'white',
