@@ -26,6 +26,7 @@ const Mutants = (props) => {
 
     return (
         <div className={'d-flex justify-content-center flex-column flex-wrap'} style={{backgroundColor: 'black', width: '100vw', marginTop: '30vh', textAlign: 'center', padding: '5vh 5vw'}}>
+            <h2 style={{marginBottom: '3rem'}}>Welcome back sir</h2>
             <h2>Enhanced Entity Database</h2>
             <form onSubmit={handleClick}>
                 <div className={'d-flex justify-content-center flex-column flex-wrap'} style={{padding: '3vh'}}>
