@@ -29,7 +29,7 @@ const Mutants = (props) => {
             <h2 style={{marginBottom: '3rem'}}>Welcome back sir</h2>
             <h2>Enhanced Entity Database</h2>
             <form onSubmit={handleClick}>
-                <div className={'d-flex justify-content-center flex-column flex-wrap'} style={{padding: '3vh'}}>
+                <div className={'d-flex justify-content-center flex-column flex-wrap'} style={{padding: '3vh', marginTop: '10vh'}}>
                     <input
                         name="searchbar"
                         type="text"
